@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:ital@0;1&family=Oswald&family=Work+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!-- SCROLL -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>Cementerio Recoleta</title>
+</head>
+<body>
+    <nav class="fixed-top bg-white mb-0 py-3">
+        <ul class="list-unstyled d-flex justify-content-center gap-5 m-0 fs-4">
+            <li><a href="index.html" class="text-decoration-none text-black">Home</a></li>
+            <li><a href="historia.html" class="text-decoration-none text-black">Historia</a></li>
+            <li><a href="visitas.html" class="text-decoration-none text-black">Visitas guiadas</a></li>
+            <li><a href="info.html" class="text-decoration-none text-black">Info</a></li>
+        </ul>
+    </nav>
+    <div class="bg d-flex flex-column">
+        <div class="contenido text-white">
+            <div class="text-center" id="contenido-imagen">
+                <h1 class="display-1 fw-semibold p-2">Cementerio de Recoleta</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 mb-5" id="informacion" data-aos="fade-up">
+        <h2 class="text-center fst-italic fw-semibold mb-5">Acerca del cementerio</h2>
+
+        <div class="row mt-5">
+            <div class="col">
+                <p>
+                    El Cementerio de la Recoleta se encuentra ubicado en el exclusivo barrio de la Recoleta,
+                    que debe su nombre a que allí se hallaba el convento de los monjes recoletos, al que también 
+                    pertenecía la vecina Basílica Nuestra Señora del Pilar (en la antigua huerta de los monjes se construyó el cementerio).
+                    <br>Es el más visitado de la ciudad, por sus numerosos e imponentes mausoleos y bóvedas, pertenecientes
+                    a muchos de los principales protagonistas de la historia argentina, como el de Eva Perón (Evita), 
+                    una de las tumbas más concurridas.
+                </p>
+            </div>
+            <div class="col">
+                <p>
+                    Asimismo, merece una visita por su valor arquitectónico, ya que 
+                    es una muestra de los tiempos en que el país era una potencia económica emergente y las principales 
+                    familias de la ciudad competían por construir panteones esplendorosos.<br>Muchas de las bóvedas y mausoleos 
+                    son obra de importantes arquitectos y están adornados con mármoles y esculturas; más de 90 bóvedas han sido declaradas Monumento Histórico Nacional.
+                </p>
+            </div>
+        </div>
+
+        <div class="row mt-5 align-items-center">
+            <div class="col">
+                <p>
+                    Es uno de los atractivos turísticos más populares de la ciudad, famoso por sus numerosos e imponentes mausoleos y bóvedas adornados con mármoles y 
+                    esculturas. <br>Su valor arquitectónico es una muestra de los tiempos en que Argentina era una potencia económica emergente a fines del siglo XIX, y 
+                    las familias más acomodadas de la ciudad comenzaron a mudarse a la zona de Recoleta y a construir panteones esplendorosos en el cementerio
+                </p>
+            </div>
+            <div class="col">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./imagenes/recoletaarc.jpg" class="d-block w-100" alt="Imagen arquitectónico 1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./imagenes/arquitectura2.jpg" class="d-block w-100" alt="Imagen arquitectónico 2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./imagenes/arquitectura3.jpg" class="d-block w-100" alt="Imagen arquitectónico 3">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-black py-4 text-white">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <p> <i class="fa-solid fa-location-dot fa-lg px-2"></i>JUNIN 1760, C1113 CABA</p>
+                    <p><i class="fa-solid fa-clock fa-lg px-2"></i>Lunes a Domingo de 7:00 a 17:45</p>
+                    <p><i class="fa-solid fa-phone fa-lg px-2"></i>15-5614-8869 o 15-5850-3110</p>
+                </div>
+                <div>
+                    <p><i class="fa-brands fa-facebook-f fa-lg px-2"></i> <a href="https://www.facebook.com/cementerioderecoleta/" class="text-decoration-none text-white" target="_blank">Cementerio de Recoleta</a></p>
+                    <p><i class="fa-solid fa-envelope fa-lg px-2"></i><a href="mailto:susytour@conozcabuenosaires.com.ar; luis@info-almagro.com.ar" class="text-decoration-none text-white">Email</a></p>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+        
+
+    <script>
+        AOS.init({
+            duration: 1500,
+        });
+    </script>
+</body>
+</html>
