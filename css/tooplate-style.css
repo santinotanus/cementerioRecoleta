@@ -160,8 +160,7 @@ p {
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
 	background-color: #a2cf8d;
 }
-bootstrap.min.css:5
-.navbar-toggle {
+.bootstrap.min.css .navbar-toggle {
     position: relative;
     float: right;
     padding: 9px 10px;
@@ -205,6 +204,7 @@ bootstrap.min.css:5
 .slide-caption span {
 	font-size: 14px;
 	text-transform: uppercase;
+	text-shadow: -2px 1px 1px rgb(0 0 0);
 }
 
 .slide-caption h2 {
@@ -217,6 +217,7 @@ bootstrap.min.css:5
 	font-size: 13px;
 	letter-spacing: 0.25px;
 	line-height: 24px;
+	text-shadow: -2px 1px 1px rgb(0 0 0);
 }
 
 ul.cd-hero-slider {
@@ -264,52 +265,52 @@ ul.cd-hero-slider {
 }
 
 .first-service .icon {
-	background-image: url(../img/first-service-main.png);
+	background-image: url(../imgs/logo-tumba-g.png);
 	height: 32px;
 	width: 32px;
 	display: inline-block;
 }
 
 .first-service:hover .icon {
-	background-image: url(../img/first-service-white.png);
+	background-image: url(../imgs/logo-tumba-w.png);
 }
 
 .second-service .icon {
-	background-image: url(../img/second-service-main.png);
+	background-image: url(../imgs/logo-tumba-g.png);
 	height: 32px;
-	width: 22px;
+	width: 32px;
 	display: inline-block;
 }
 
 .second-service:hover .icon {
-	background-image: url(../img/second-service-white.png);
+	background-image: url(../imgs/logo-tumba-w.png);
 }
 
 .third-service .icon {
-	background-image: url(../img/third-service-main.png);
+	background-image: url(../imgs/logo-tumba-g.png);
 	height: 32px;
 	width: 32px;
 	display: inline-block;
 }
 
 .third-service:hover .icon {
-	background-image: url(../img/third-service-white.png);
+	background-image: url(../imgs/logo-tumba-w.png);
 }
 
 .fourth-service .icon {
-	background-image: url(../img/fourth-service-main.png);
+	background-image: url(../imgs/logo-tumba-g.png);
 	height: 32px;
 	width: 32px;
 	display: inline-block;
 }
 
 .fourth-service:hover .icon {
-	background-image: url(../img/fourth-service-white.png);
+	background-image: url(../imgs/logo-tumba-w.png);
 }
 
 
 #what-we-do {
-	background-image: url(../img/what-we-do-bg.png);
+	background-image: url(../imgs/IMG_1180\ -\ Editada.png);
 	width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -570,7 +571,7 @@ ul.cd-hero-slider {
 }
 
 #contact {
-	background-image: url(../img/contact-bg.png);
+	background-image: url(../imgs/IMG_1215\ -\ Editada.png);
 	background-repeat: no-repeat;
 	width: 100%;
 	background-size: cover;
