@@ -631,6 +631,77 @@ ul.cd-hero-slider {
 	transition: all 0.3s;
 }
 
+#contact2 .section-heading h4 {
+	color: #fff;
+}
+
+#contact2 .section-heading .line-dec {
+	background-color: #fff;
+}
+
+#contact2 .section-heading {
+	margin-bottom: 60px;
+}
+
+#contact2 {
+	background: rgb(255, 255, 255);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+}
+
+#contact2 .map img {
+	width: 100%;
+	overflow: hidden;
+}
+
+#contact2 input {
+	border-radius: 0px;
+	padding-left: 15px;
+	font-size: 13px;
+	color: #555;
+	outline: none;
+	border: none;
+	box-shadow: none;
+	line-height: 50px;
+	height: 50px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#contact2 textarea {
+	border-radius: 0px;
+	padding-left: 15px;
+	font-size: 13px;
+	color: #555;
+	background-color: rgb (233 233 233);
+	outline: none;
+	border: none;
+	box-shadow: none;
+	height: 165px;
+	max-height: 220px;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+#contact2 button {
+	display: inline-block;
+	background-color: #a2cf8d;
+	padding: 12px 18px;
+	color: #fff;
+	font-size: 11px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 20px;
+}
+
+#contact2 button:hover {
+	color: #fff;
+	background-color: #5c9d7d;
+	transition: all 0.3s;
+}
 
 /* FOOTER */
 
