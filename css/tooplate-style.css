@@ -24,7 +24,7 @@ p {
 	display: inline-block;
 	background-color: #a2cf8d;
 	padding: 12px 18px;
-	color: #fff;
+	color: #000;
 	font-size: 11px;
 	font-weight: 500;
 	letter-spacing: 1px;
@@ -688,7 +688,7 @@ ul.cd-hero-slider {
 	display: inline-block;
 	background-color: #a2cf8d;
 	padding: 12px 18px;
-	color: #fff;
+	color: #000;
 	font-size: 11px;
 	letter-spacing: 1px;
 	font-weight: 500;
